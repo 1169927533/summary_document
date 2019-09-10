@@ -1,0 +1,273 @@
+{\rtf1\ansi\ansicpg936\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset134 PingFangSC-Regular;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 HelveticaNeue-Italic;
+\f3\froman\fcharset0 Times-Roman;\f4\fswiss\fcharset0 ArialMT;\f5\fnil\fcharset0 Menlo-Regular;
+\f6\fnil\fcharset0 Menlo-Bold;\f7\fnil\fcharset0 HelveticaNeue;\f8\fnil\fcharset134 .PingFangSC-Regular;
+\f9\fnil\fcharset0 Menlo-Italic;}
+{\colortbl;\red255\green255\blue255;\red35\green35\blue35;\red255\green255\blue255;\red0\green0\blue0;
+\red0\green0\blue0;\red60\green60\blue60;\red15\green112\blue3;\red38\green38\blue38;\red252\green55\blue34;
+\red255\green242\blue242;\red109\green109\blue109;\red0\green0\blue109;\red82\green0\blue103;\red109\green111\blue5;
+}
+{\*\expandedcolortbl;;\cssrgb\c18431\c18431\c18431;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;
+\csgray\c0\c0;\cssrgb\c30196\c30196\c30196;\csgenericrgb\c5882\c43922\c1176;\cssrgb\c20000\c20000\c20000;\cssrgb\c100000\c31373\c17255;
+\cssrgb\c100000\c96078\c96078;\csgenericrgb\c42745\c42745\c42745;\csgenericrgb\c0\c0\c42745;\csgenericrgb\c32157\c0\c40392;\csgenericrgb\c42745\c43529\c1961;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww17540\viewh12440\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \'c1\'ac\'bd\'d3\'b5\'bd\'bf\'bc\'c7\'da\'bb\'fa
+\f1 adb connect 10.10.10.91:5555\
+
+\f0 \'c1\'ac\'bd\'d3\'b5\'bd\'d2\'b9\'c9\'f1\'c4\'a3\'c4\'e2\'c6\'f7
+\f2\i \cf2 \cb3 \expnd0\expndtw0\kerning0
+adb connect 127.0.0.1:62001
+\f3\i0 \cf4 \cb1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf4 \'b2\'e9\'bf\'b4androdi\'d5\'bb\'c4\'da\'c7\'e9\'bf\'f6\'a3\'ba
+\f1 adb shell dumpsys activity | sed -n -e '/Stack #/p' -e '/Running activities/,/Run #0/p'\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \'b2\'e9\'bf\'b4app\'c6\'f4\'b6\'af\'ca\'b1\'bc\'e4\'a3\'baadb shell am start -W com.example.weixtclassboard/com.example.weixtclassboard.ui.lead.LeadActivity\
+\
+\
+adb shell am force-stop com.weixt.guard\
+adb shell am force-stop com.weixt.newclassboard\
+\
+\
+
+\f1 \
+Retrogit2.0\
+
+\f0 \'b9\'b2\'cf\'ed\'d4\'aa\'cb\'d8\'bc\'e4\'b5\'c4\'d7\'aa\'b3\'a1\'b6\'af\'bb\'ad\
+viewpager\'b5\'c4\'c0\'ed\'bd\'e2\
+android\'d6\'d0window\'c0\'e0\'b5\'c4\'c0\'ed\'bd\'e2\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f4 \cf4 \cb5 \expnd0\expndtw0\kerning0
+ConcurrentHashMap
+\f0 \'a3\'ba
+\fs32 \cf6 \cb3 \'bd\'e2\'be\'f6
+\f4 HashMap
+\f0 \'cf\'df\'b3\'cc\'b2\'bb\'b0\'b2\'c8\'ab\'ba\'cd
+\f4 Hashtable
+\f0 \'d0\'a7\'c2\'ca\'b2\'bb\'b8\'df\'b5\'c4\'ce\'ca\'cc\'e2\
+\
+
+\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \'bf\'b4\'b5\'bd
+\fs32 \cf6 \cb3 \expnd0\expndtw0\kerning0
+48\'d2\'b3 - 61\'d2\'b3 \'b9\'d8\'d3\'da\'b6\'af\'bb\'ad\'b5\'c4\'b2\'bf\'b7\'d6\
+\
+Window\'d6\'f7\'d2\'aa\'b9\'dc\'c0\'edVIew\'b5\'c4\'b4\'b4\'bd\'a8\'d2\'d4\'bc\'b0\'d3\'ebViewRootimpl\'b5\'c4\'bd\'bb\'bb\'a5\'a3\'ac\'bd\'abActivity\'ba\'cdVIew\'bd\'f8\'d0\'d0\'bd\'e2\'f1\'ee\
+\'d2\'bb\'b8\'f6activity\'b6\'d4\'d3\'a6\'d2\'bb\'b8\'f6window\'d2\'b2\'be\'cd\'ca\'c7PhoneWindow\'a3\'ac\'d2\'bb\'b8\'f6PhoneWindow\'b3\'d6\'d3\'d0\'d2\'bb\'b8\'f6DecorView\'b5\'c4\'ca\'b5\'c0\'fd\'a3\'acDecorView\'b1\'be\'c9\'ed\'ca\'c7\'d2\'bb\'b8\'f6Fragmentlaout\'a1\'a3
+\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+\
+Gradle\'c0\'ef\'c3\'e6\'cc\'ed\'bc\'d3\'cd\'e2\'b2\'bf\'d2\'c0\'c0\'b5\'b5\'c4\'b8\'fc\'bc\'d3\'d7\'bc\'c8\'b7\'b5\'c4\'d0\'b4\'b7\'a8\'a3\'ba\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f5\fs18 \cf0 ext \{\
+    androidutilsVersion = 
+\f6\b \cf7 '1.0.6'\
+    
+\f5\b0 \cf0 appcompatVersion = 
+\f6\b \cf7 '27.1.0'\
+    
+\f5\b0 \cf0 butterknifeVersion = 
+\f6\b \cf7 '8.4.0'\
+    
+\f5\b0 \cf0 retrofitVersion = 
+\f6\b \cf7 '2.3.0'\
+    
+\f5\b0 \cf0 logginginterceptor = 
+\f6\b \cf7 '3.9.1'\
+    
+\f5\b0 \cf0 rxjavaVersion = 
+\f6\b \cf7 '2.1.11'\
+    
+\f5\b0 \cf0 rxandroidVersion = 
+\f6\b \cf7 "2.0.2"\
+
+\f5\b0 \cf0 \}\
+\
+dependencies \{\
+    implementation fileTree(
+\f6\b \cf7 include
+\f5\b0 \cf0 : [
+\f6\b \cf7 '*.jar'
+\f5\b0 \cf0 ], 
+\f6\b \cf7 dir
+\f5\b0 \cf0 : 
+\f6\b \cf7 'libs'
+\f5\b0 \cf0 )\
+    implementation 
+\f6\b \cf7 "com.wuxiaolong.androidutils:androidutils:
+\f5\b0 \cf0 $androidutilsVersion
+\f6\b \cf7 "\
+    
+\f5\b0 \cf0 implementation 
+\f6\b \cf7 "com.android.support:appcompat-v7:
+\f5\b0 \cf0 $appcompatVersion
+\f6\b \cf7 "\
+    
+\f5\b0 \cf0 annotationProcessor 
+\f6\b \cf7 "com.jakewharton:butterknife-compiler:
+\f5\b0 \cf0 $butterknifeVersion
+\f6\b \cf7 "\
+    
+\f5\b0 \cf0 implementation 
+\f6\b \cf7 "com.squareup.retrofit2:retrofit:
+\f5\b0 \cf0 $retrofitVersion
+\f6\b \cf7 "\
+    
+\f5\b0 \cf0 implementation 
+\f6\b \cf7 "com.squareup.okhttp3:logging-interceptor:
+\f5\b0 \cf0 $logginginterceptor
+\f6\b \cf7 "\
+    
+\f5\b0 \cf0 implementation 
+\f6\b \cf7 "com.squareup.retrofit2:converter-gson:
+\f5\b0 \cf0 $retrofitVersion
+\f6\b \cf7 "\
+    
+\f5\b0 \cf0 implementation 
+\f6\b \cf7 "com.squareup.retrofit2:adapter-rxjava2:
+\f5\b0 \cf0 $retrofitVersion
+\f6\b \cf7 "\
+    
+\f5\b0 \cf0 implementation 
+\f6\b \cf7 "io.reactivex.rxjava2:rxandroid:
+\f5\b0 \cf0 $rxandroidVersion
+\f6\b \cf7 "\
+    
+\f5\b0 \cf0 implementation 
+\f6\b \cf7 "io.reactivex.rxjava2:rxjava:
+\f5\b0 \cf0 $rxjavaVersion
+\f6\b \cf7 "\
+\
+
+\f5\b0 \cf0 \}\
+\
+Daomaster
+\f0 \'ca\'b5\'cf\'d6\'d4\'ad\'c9\'fa\'b5\'c4sql\'d3\'ef\'be\'e4\'b2\'e9\'d1\'af\
+	
+\f4\fs32 \cf6 \cb3 \expnd0\expndtw0\kerning0
+String sql = \'93select * from "+ xxxDao.getTableName();\
+\pard\pardeftab720\sl520\sa320\partightenfactor0
+\cf6 	Cursor c = session.getDatabase().rawQuery(sql,null);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f5\fs30 \cf0 \cb1 \kerning1\expnd0\expndtw0 AsyncTask
+\f0 \
+\
+
+\f5 Android
+\f0 \'c9\'cf\'b4\'ab\'b8\'d5\'b2\'c5\'ba\'f6\'c2\'d4\'ce\'c4\'bc\'fe\'c5\'e4\'d6\'c3\'a3\'ba\
+\'d4\'da.gitgnore\'ce\'c4\'bc\'fe\'c0\'ef\'b7\'c5\'c8\'eb\'d2\'d4\'cf\'c2\'b4\'fa\'c2\'eb\'a3\'ba\
+
+\f5 *.iml\
+.gradle\
+/local.properties\
+/.idea\
+.DS_Store\
+/build\
+/captures\
+.externalNativeBuild\
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f7 \cf8 \cb3 \expnd0\expndtw0\kerning0
+Java
+\f8 \'cc\'e1\'b9\'a9\'c1\'cb
+\f5\fs20\fsmilli10440 \cf9 \cb10 volatile
+\f8\fs30 \cf8 \cb3 \'b9\'d8\'bc\'fc\'d7\'d6\'a1\'a3
+\f7 volatile
+\f8 \'b9\'d8\'bc\'fc\'d7\'d6\'d0\'de\'ca\'ce\'b1\'e4\'c1\'bf\'a3\'ac\'be\'cd\'ca\'c7\'b8\'e6\'d6\'aa\'cf\'df\'b3\'cc\'b6\'d4\'b8\'c3\'b1\'e4\'c1\'bf\'b5\'c4\'b7\'c3\'ce\'ca\'b1\'d8\'d0\'eb\'d6\'d8\'d6\'f7\'c4\'da\'b4\'e6\'d6\'d0\'bb\'f1\'c8\'a1\'a1\'a3\'b6\'f8\'b6\'d4\'cb\'fc\'b5\'c4\'b8\'c4\'b1\'e4\'b1\'d8\'d0\'eb\'cd\'ac\'b2\'bd\'cb\'a2\'d0\'c2\'b5\'bd\'d6\'f7\'c4\'da\'b4\'e6\'d6\'d0\'a1\'a3\'d5\'e2\'d1\'f9\'be\'cd\'c4\'dc\'b1\'a3\'d6\'a4\'cf\'df\'b3\'cc\'b6\'d4\'b1\'e4\'c1\'bf\'b7\'c3\'ce\'ca\'b5\'c4\'bf\'c9\'bc\'fb\'d0\'d4\
+\
+\
+keystore\'b5\'c4\'c3\'dc\'c2\'eb\
+abcd1234\
+android.keystore\
+abcd1234
+\f5 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f9\i \cf11 /**\
+ * 
+\f0\i0 \'c8\'d5\'d6\'be\'b1\'a3\'b4\'e6\'ce\'bb\'d6\'c3
+\f9\i \
+ */\
+/**\
+ * Environment.getExternalStorageDirectory()
+\f0\i0 \'bb\'f1\'c8\'a1\'b5\'c4\'ca\'c7
+\f9\i sd
+\f0\i0 \'bf\'a8\'b5\'c4\'b8\'f9\'c4\'bf\'c2\'bc\'c2\'b7\'be\'b6
+\f9\i \
+ *\
+ * 
+\f0\i0 \'d3\'c9\'d3\'da
+\f9\i window
+\f0\i0 \'ba\'cd
+\f9\i linux
+\f0\i0 \'b5\'c4\'ce\'c4\'bc\'fe\'ca\'e9\'d0\'b4\'c2\'b7\'be\'b6\'b7\'bd\'ca\'bd\'b2\'bb\'cd\'ac
+\f9\i \
+ * window  c:\\a\\b\
+ * Linux   c:/a/b\
+ * 
+\f0\i0 \'cb\'f9\'d2\'d4\'ce\'aa\'c1\'cb\'c8\'ab\'b2\'bf\'d6\'a7\'b3\'d6\'ce\'d2\'c3\'c7\'ca\'b9\'d3\'c3
+\f9\i File.separator
+\f0\i0 \'c0\'b4\'b4\'fa\'cc\'e6
+\f9\i  / or \\\
+ */\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f5\i0 \cf0 \
+
+\f0 \'d4\'daThread\'a3\'a8\'cf\'df\'b3\'cc\'a3\'a9\'c0\'ef\'b4\'b4\'bd\'a8\'d2\'bb\'b8\'f6Handler\'ca\'b1\'b1\'d8\'d0\'eb\'cf\'c8\'b4\'b4\'bd\'a8Looper\'a3\'ba\'c0\'fd\'c8\'e7\'a3\'ba\
+	
+\f6\b \cf12 class  
+\f5\b0 \cf0 CalThred  
+\f6\b \cf12 extends 
+\f5\b0 \cf0 Thread\{\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0     Handler 
+\f6\b \cf13 handler
+\f5\b0 \cf0 ;\
+\
+    \cf14 @Override\
+    
+\f6\b \cf12 public void 
+\f5\b0 \cf0 run() \{\
+        Looper.
+\f9\i prepare
+\f5\i0 ();\
+        
+\f6\b \cf13 handler 
+\f5\b0 \cf0 = 
+\f6\b \cf12 new 
+\f5\b0 \cf0 Handler()\{\
+            \cf14 @Override\
+            
+\f6\b \cf12 public void 
+\f5\b0 \cf0 handleMessage(\cf14 @NonNull \cf0 Message msg) \{\
+                
+\f6\b \cf12 super
+\f5\b0 \cf0 .handleMessage(msg);\
+            \}\
+        \};\
+        Looper.
+\f9\i loop
+\f5\i0 ();\
+    \}\
+\}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+
+\f0 \'d4\'da\'c6\'d5\'cd\'a8\'ca\'b9\'d3\'c3\'b5\'c4\'ca\'b1\'ba\'f2\'ce\'d2\'c3\'c7\'ca\'c7\'d4\'da\'d6\'f7\'cf\'df\'b3\'cc\'c0\'ef\'c3\'e6\'b4\'b4\'bd\'a8\'c1\'cbHandler\'a3\'ac\'c8\'bb\'b6\'f8\'d6\'f7\'cf\'df\'b3\'cc\'d7\'d4\'b4\'f8\'c1\'cb\'d2\'bb\'b8\'f6Looper\'cb\'f9\'d2\'d4\'b2\'bb\'d0\'e8\'d2\'aa\'ce\'d2\'c3\'c7\'d4\'d9\'c8\'a5\'b4\'b4\'bd\'a8\'d2\'bb\'b8\'f6Looper
+\f5 \
+
+\f0 \'be\'cd\'c4\'dc\'ca\'b5\'cf\'d6\'cf\'df\'b3\'cc\'bc\'e4\'b5\'c4\'cd\'a8\'d0\'c5}
